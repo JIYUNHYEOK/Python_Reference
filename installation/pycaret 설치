@@ -1,0 +1,5 @@
+pycaret 설치
+1. conda install bottleneck
+2. pip install p5py
+3. pip install pep517
+4. pip install pycaret
