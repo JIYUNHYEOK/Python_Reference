@@ -1,0 +1,11 @@
+numpy
+pip install numpy
+
+pandas
+pip install pandas
+
+matplotlib
+pip install matplotlib
+
+scipy
+pip install scipy
