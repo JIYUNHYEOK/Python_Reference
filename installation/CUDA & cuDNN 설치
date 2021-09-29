@@ -1,0 +1,31 @@
+GPU 그래픽카드 확인 
+장치관리자 -> 디스플레이 어댑터 -> 그래픽카드확인
+
+CUDA 버전 확인
+https://en.wikipedia.org/wiki/CUDA (특정버전 이상 설치)
+
+CUDA 11.1 버전 설치
+https://developer.nvidia.com/cuda-11.1.0-download-archive?target_os=Windows&target_arch=x86_64
+
+cuDNN 설치
+https://developer.nvidia.com/rdp/cudnn-archive
+Download cuDNN v8.2.1 (June 7th, 2021), for CUDA 11.x -> cuDNN Library for Windows (x86)
+
+설치된 파일 이동
+설치된 파일 내 bin, include, lib 내에 있는 파일을 C:\Program Files\NVIDIA GPU Computing Toolkit로 이동
+
+환경변수 설정
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1 확인
+CUDA_PATH_V11_1 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1 확인
+
+CUDA 설치 확인
+1. cmd 명령프롬프트 실행 
+2. nvcc --version 입력
+3. CUDA 설치 버전 확인
+C:\Users\zyunhyeok>nvcc --version
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2020 NVIDIA Corporation
+Built on Mon_Oct_12_20:54:10_Pacific_Daylight_Time_2020
+Cuda compilation tools, release 11.1, V11.1.105
+Build cuda_11.1.relgpu_drvr455TC455_06.29190527_0
+
