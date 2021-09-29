@@ -9,3 +9,6 @@ pip install matplotlib
 
 scipy
 pip install scipy
+
+No module named 'statsmodels'
+pip install statsmodels
