@@ -1,0 +1,25 @@
+http://pytorch.org/
+
+pip -> CUDA 11.1
+pip3 install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio===0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
+
+cmd 실행 후 입력
+pip3 install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio===0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
+
+torch 설치 확인
+C:\Users\zyunhyeok>python
+Python 3.8.8 (default, Apr 13 2021, 15:08:03) [MSC v.1916 64 bit (AMD64)] :: Anaconda, Inc. on win32
+
+>>> import torch
+
+cuda가 제대로 인식되는지 확인
+>>> torch.cuda.is_available()
+True
+
+컴퓨터 내 GPU 갯수 확인
+>>> torch.cuda.device_count()
+1
+
+컴퓨터 내 그래픽카드 이름 확인
+>>> torch.cuda.get_device_name()
+'GeForce GTX 1660 Ti'
