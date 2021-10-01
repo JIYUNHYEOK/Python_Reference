@@ -1,0 +1,23 @@
+1. https://www.mingw-w64.org/downloads/#mingw-builds접속
+
+2. Mingw-builds Sourcforce 클릭 후 mingw64.exe 실행 후 설치
+
+3. C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0 설치경로 확인
+
+4. 고급시스템 설정 > 환경변수 > 사용자/시스템 변수 > path > 새로만들기 경로 추가
+
+(C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0 + \bin ->C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\bin)
+
+5. anaconda prompt 관리자 권한으로 실행 
+
+conda install mkl
+
+conda install libpython
+
+pip install theano
+
+conda install -c conda-forge libpython mkl-service m2w64-toolchain numba python-graphviz scipy
+
+(pip uninstall pymc3)
+
+pip install pymc3
