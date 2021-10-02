@@ -1,0 +1,4 @@
+from IPython.display import YouTubeVideo, Image
+
+Image(url='https://img.pngio.com/scikit-learn-batch-gradient-descent-versus-stochastic-gradient-descent-png-592_319.png')
+YouTubeVideo('GEdLNvPIbiM')
