@@ -1,0 +1,8 @@
+stanza 설치
+!pip install stanza
+
+gensim 설치
+!pip install gensim
+
+wordcloud 설치
+!conda install -y -c conda-forge wordcloud
