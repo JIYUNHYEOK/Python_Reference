@@ -1,3 +1,6 @@
+stanza를 사용하기 위해서는 pytorch가 필요
+!conda install -y -c pytorch pytorch torchvision
+
 stanza 설치
 !pip install stanza
 
