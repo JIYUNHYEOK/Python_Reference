@@ -7,6 +7,9 @@ stanza 설치
 기본은 kaist이고, package = 'gsd'로 gsd사용
 stanza.download('ko')
 
+kiwi 설치
+!pip install kiwipiepy
+
 gensim 설치
 !pip install gensim
 
