@@ -1,0 +1,4 @@
+matplotlib.pyplot 모듈의 subplot() 함수는 여러 개의 그래프를 하나의 그림에 표현
+-> subplot(nrows, ncols, index)
+plt.subplot() 함수의 sharex 또는 sharey 파라미터를 사용하면 두 그래프의 축을 공유
+-> ax2 = plt.subplot(2, 1, 2, sharex=ax1)
