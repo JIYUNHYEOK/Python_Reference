@@ -4,3 +4,8 @@ ex) df.loc[(df.name == 'ribera'), 'name'] = '리베라호텔'
 
 칼럼 순서 변경
 df = df[['열1', '열2', '열3', .. ]]
+
+중복행 제거
+df.drop_duplicates(subset=None, keep='first', inplace=False, ignore_index=False)
+keep: 남길 대상을 지정 (첫번째:first, 마지막:last, 모두제거:False)
+ignore_index: 인덱스 재설정
