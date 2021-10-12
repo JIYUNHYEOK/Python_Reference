@@ -9,3 +9,12 @@ df = df[['열1', '열2', '열3', .. ]]
 df.drop_duplicates(subset=None, keep='first', inplace=False, ignore_index=False)
 keep: 남길 대상을 지정 (첫번째:first, 마지막:last, 모두제거:False)
 ignore_index: 인덱스 재설정
+
+결측값이 존재하는 행 삭제
+df.dropna(axis=0)
+
+결측값이 존재하는 열 삭제
+df.dropna(axis=1)
+
+특정 열이나 행을 대상으로 결측값이 있으면 제거
+df['열 또는 행의 이름'].dropna(axis=0 or 1)
