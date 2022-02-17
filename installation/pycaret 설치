@@ -3,4 +3,5 @@ pycaret 설치
 2. pip install p5py
 3. pip install pep517
 4. pip install pycaret
-- 액세스 거부시 관리자 권한으로 실행 후 python3 -m pip install --user pycaret
+# 액세스 거부시 관리자 권한으로 실행 후 
+python3 -m pip install --user pycaret
