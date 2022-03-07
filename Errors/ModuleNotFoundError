@@ -1,0 +1,3 @@
+ModuleNotFoundError: No module named 'pandas'
+- pip install --upgrade pandas # 최신 버전으로 업그레이드. 
+- pip install pandas==0.23 # 지정된 버전으로 업그레이드. 
