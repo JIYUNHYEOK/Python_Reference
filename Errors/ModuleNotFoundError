@@ -4,3 +4,6 @@ ModuleNotFoundError: No module named 'pandas'
 
 ModuleNotFoundError: No module named 'scipy'
 - pip install --upgrade scipy
+
+ModuleNotFoundError: No module named 'matplotlib'
+- pip install --upgrade matplotlib
