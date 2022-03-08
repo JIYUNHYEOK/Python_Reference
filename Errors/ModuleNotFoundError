@@ -7,3 +7,6 @@ ModuleNotFoundError: No module named 'scipy'
 
 ModuleNotFoundError: No module named 'matplotlib'
 - pip install --upgrade matplotlib
+
+ModuleNotFoundError: No module named 'seaborn'
+- pip install --upgrade seaborn
