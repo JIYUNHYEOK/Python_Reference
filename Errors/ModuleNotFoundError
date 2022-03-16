@@ -10,3 +10,6 @@ ModuleNotFoundError: No module named 'matplotlib'
 
 ModuleNotFoundError: No module named 'seaborn'
 - pip install --upgrade seaborn
+
+ModuleNotFoundError: No module named 'sklearn'
+- pip install --upgrade sklearn
