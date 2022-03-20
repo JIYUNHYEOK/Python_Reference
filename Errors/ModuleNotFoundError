@@ -13,3 +13,6 @@ ModuleNotFoundError: No module named 'seaborn'
 
 ModuleNotFoundError: No module named 'sklearn'
 - pip install --upgrade sklearn
+
+ModuleNotFoundError: No module named 'statsmodels'
+- pip install --upgrade statsmodels
