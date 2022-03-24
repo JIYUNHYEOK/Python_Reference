@@ -16,3 +16,6 @@ ModuleNotFoundError: No module named 'sklearn'
 
 ModuleNotFoundError: No module named 'statsmodels'
 - pip install --upgrade statsmodels
+
+ModuleNotFoundError: No module named 'factor_analyzer'
+- pip install --upgrade factor_analyzer
