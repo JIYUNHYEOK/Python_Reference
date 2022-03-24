@@ -19,3 +19,6 @@ ModuleNotFoundError: No module named 'statsmodels'
 
 ModuleNotFoundError: No module named 'factor_analyzer'
 - pip install --upgrade factor_analyzer
+
+ModuleNotFoundError: No module named 'imblearn'
+- pip install --upgrade imblearn
