@@ -22,3 +22,6 @@ ModuleNotFoundError: No module named 'factor_analyzer'
 
 ModuleNotFoundError: No module named 'imblearn'
 - pip install --upgrade imblearn
+
+ModuleNotFoundError: No module named 'mlxtend'
+- pip install --upgrade mlxtend
